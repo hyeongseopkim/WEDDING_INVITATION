@@ -47,8 +47,8 @@ const Location = () => {
   const executeScript = () => {
     const scriptTag = document.createElement("script");
     const inlineScript = document.createTextNode(`new daum.roughmap.Lander({
-    "timestamp" : "1748941644746",
-    "key" : "2wmvwn2wgo9",
+    "timestamp" : "1748945449932",
+    "key" : "2wpm83d6inw",
     "mapWidth" : "640",
     "mapHeight" : "360"
   }).render();`);
@@ -103,23 +103,25 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        대구 수성구 두산동 888-2번지
+        서울시 강서구 마곡중앙5로 6
         <br />
-        호텔수성 수성스퀘어 3층 피오니홀
+        보타닉 푸르지오시티 로비층 보타닉파크 웨딩
         <br />
         <br />
         <Title>버스 이용시</Title>
         <br />
         <br />
-        410-1, 401 호텔수성 앞 하차
+        마곡나루역 정류장 하차
         <br />
-        수성1-1, 수성3-1, 814 TBC방송국 앞 하차
+        간선버스 N64 ㅣ 지선버스 6642, 6645, 6648 ㅣ 마을버스 강서05-1, 강서07
         <br />
         <br />
         <Title>지하철 이용시</Title>
         <br />
         <br />
-        3호선 수성못역 하차 (도보 10분)
+        9호선 - 마곡나루역 1, 2번 출구방면 진입통로 연결
+        <br />
+       공항철도 - 9호선 환승역 방향 마곡나루역 1, 2번 출구방면 진입통로 연결
       </Content>
     </Wrapper>
   );
