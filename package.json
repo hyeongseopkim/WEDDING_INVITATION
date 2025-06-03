@@ -30,7 +30,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-"engines": {
-  "node": "16.x"
-}
+  "engines": {
+    "node": "16.x"
+  }
 }
