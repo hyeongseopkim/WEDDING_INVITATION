@@ -3,7 +3,7 @@ export const KAKAOTALK_API_TOKEN = "JavaScript 키 입력";
 export const KAKAOTALK_SHARE_IMAGE =
   "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
 
-export const WEDDING_DATE = "2025년 08월 09일, 토요일 오후 12시 10분";
+export const WEDDING_DATE = "2025년 8월 9일, 토요일 오후 12시10분";
 export const WEDDING_LOCATION = "보타닉파크웨딩, 로비층 카라홀";
 
 export const GROOM_NAME = "김형섭";
