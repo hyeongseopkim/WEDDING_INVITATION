@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -25,5 +26,11 @@
     "react-dom": "^17.0.1",
     "react-image-gallery": "^1.2.8",
     "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
+"engines": {
+  "node": "16.x"
+}
 }
