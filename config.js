@@ -15,7 +15,7 @@ export const GROOM_MOTHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
 
 export const BRIDE_NAME = "이태경";
 export const BRIDE_ACCOUNT_NUMBER = "○○은행 ***-***-******";
-export const BRIDE_FATHER_NAME = "○○○";
+export const BRIDE_FATHER_NAME = "이흥주";
 export const BRIDE_FATHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
-export const BRIDE_MOTHER_NAME = "○○○";
+export const BRIDE_MOTHER_NAME = "유희재";
 export const BRIDE_MOTHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
