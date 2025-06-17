@@ -50,10 +50,10 @@ const IndexPage = () => {
     <>
       {/* ✅ 메타태그 삽입 */}
       <Helmet>
-        <title>김형섭 ❤️ 이태경 결혼합니다</title>
-        <meta property="og:title" content="김형섭 ❤️ 이태경 결혼합니다" />
-        <meta property="og:description" content="우리의 특별한 날에 초대합니다." />
-        <meta property="og:image" content="https://hyeongseopkim.netlify.app/Gallery_Photo_1.jpg" />
+        <title>김형섭 ❤️ 이태경 우리의 결혼식에 초대합니다.</title>
+        <meta property="og:title" content="김형섭 ❤️ 이태경 우리의 결혼식에 초대합니다." />
+        <meta property="og:description" content="2025년 8월 9일 토요일 오후 12시 10분" />
+        <meta property="og:image" content="https://hyeongseopkim.netlify.app/Gallery_Photo_4.jpg" />
         <meta property="og:url" content="https://hyeongseopkim.netlify.app/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
