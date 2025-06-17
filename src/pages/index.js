@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet"; // ✅ 추가
 import { Layout } from "antd";
 import styled from "styled-components";
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -35,7 +36,7 @@ const IndexPage = () => {
     document.body.appendChild(script);
 
     return () => {
-      document.body.romoveChile(script);
+      document.body.removeChild(script); // ✅ 오타 수정: romoveChile → removeChild
     };
   }, []);
 
@@ -43,30 +44,44 @@ const IndexPage = () => {
     AOS.init({
       duration: 1500,
     });
-  });
+  }, []);
+
   return (
-    <Wrapper>
-      <audio autoPlay loop>
-        <source src={Song} />
-      </audio>
-      <Title />
-      <Greeting />
-      <Gallery />
-      <Location />
-      <Quote />
-      <CongratulatoryMoney />
-      <Share />
-      <Footer
-        style={{
-          background: "#D7CCC8",
-          backgroundImage: `url(${GroovePaper})`,
-          opacity: 0.6,
-          textAlign: "center",
-        }}
-      >
-        Copyright © 2022 Shin Jooyoung
-      </Footer>
-    </Wrapper>
+    <>
+      {/* ✅ 메타태그 삽입 */}
+      <Helmet>
+        <title>김형섭 💍 결혼합니다</title>
+        <meta property="og:title" content="김형섭 💍 결혼합니다" />
+        <meta property="og:description" content="우리의 특별한 날에 초대합니다." />
+        <meta property="og:image" content="https://네-도메인.netlify.app/thumbnail.jpg" />
+        <meta property="og:url" content="https://네-도메인.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+
+      <Wrapper>
+        <audio autoPlay loop>
+          <source src={Song} />
+        </audio>
+        <Title />
+        <Greeting />
+        <Gallery />
+        <Location />
+        <Quote />
+        <CongratulatoryMoney />
+        <Share />
+        <Footer
+          style={{
+            background: "#D7CCC8",
+            backgroundImage: `url(${GroovePaper})`,
+            opacity: 0.6,
+            textAlign: "center",
+          }}
+        >
+          Copyright © 2022 Shin Jooyoung
+        </Footer>
+      </Wrapper>
+    </>
   );
 };
 
