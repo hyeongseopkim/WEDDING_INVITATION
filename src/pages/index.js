@@ -50,11 +50,11 @@ const IndexPage = () => {
     <>
       {/* ✅ 메타태그 삽입 */}
       <Helmet>
-        <title>김형섭 💍 결혼합니다</title>
-        <meta property="og:title" content="김형섭 💍 결혼합니다" />
+        <title>김형섭 ❤️ 이태경 결혼합니다</title>
+        <meta property="og:title" content="김형섭 ❤️ 이태경 결혼합니다" />
         <meta property="og:description" content="우리의 특별한 날에 초대합니다." />
-        <meta property="og:image" content="https://네-도메인.netlify.app/thumbnail.jpg" />
-        <meta property="og:url" content="https://네-도메인.netlify.app/" />
+        <meta property="og:image" content="https://hyeongseopkim.netlify.app/Gallery_Photo_1.jpg" />
+        <meta property="og:url" content="https://hyeongseopkim.netlify.app/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
