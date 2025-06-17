@@ -1,0 +1,19 @@
+import React from "react";
+
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <meta key="og:title" property="og:title" content="우리 결혼합니다 💍" />,
+    <meta
+      key="og:description"
+      property="og:description"
+      content="2025년 10월 5일, 보타닉파크웨딩에서 만나요!"
+    />,
+    <meta
+      key="og:image"
+      property="og:image"
+      content="https://도메인.netlify.app/preview.png"
+    />,
+    <meta key="og:url" property="og:url" content="https://hyeongseopkim.netlify.app/" />,
+    <meta key="og:type" property="og:type" content="website" />,
+  ]);
+};
